@@ -1,3 +1,188 @@
-.logo {
-    max-width: 250px;
+/* global styles */
+
+
+/* -- header -- */ 
+
+body {
+    font-family: sans-serif, Verdana, Arial, Helvetica;
+    margin: auto;
+    max-width: 100%;
 }
+
+header {
+    display: flex;
+}
+
+.logo_box {
+    max-width: 70px;
+}
+
+.logo {
+    max-width: 100%;
+}
+
+.logo_text1 {
+    font-size: 24px;
+    text-decoration: solid;
+}
+
+.logo_text2 {
+    font-size: 16px;
+}
+
+.fa-bars {
+    font-size: 24px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+#hamburger-checkbox:checked ~ nav {
+    display: block;
+}
+
+nav, #hamburger-checkbox {
+    display: none;
+}
+
+nav a {
+    display: block;
+    color: black;
+    text-decoration: none;
+ }
+
+/* -- header end -- */
+
+.free_entrance {
+    display: flex;
+    flex-direction: inline-flex;
+    background-color: rgba(9, 61, 139, 1);
+    color: white;
+}
+
+.free_entrance_text {  
+    font-size: 12px;
+    margin: 8px 40px;
+    text-align: center;
+}
+    
+
+/* -- footer -- */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+footer div p {
+    font-size: 10px;
+}
+
+/* LOCAL STYLES */
+
+/* index page */
+
+.spaceship_simulator, .mammut_museum, .simulation_glasses {
+    max-width: 300px;
+}
+
+.spaceship_simulator {
+    border-radius: 20%;
+}
+
+.simulation_glasses {
+    border-radius: 20%;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgba(9, 61, 139, 1);
+}
+
+.two {
+    padding: 10px 36px;
+}
+
+.three {
+    padding: 10px 52px;
+}
+
+.section_one {
+    background-color: rgba(195, 249, 230, 1);
+}
+
+.section_two {
+    background-color: rgba(240, 251, 114, 0.87);
+}
+
+.section_three {
+    background-color: rgba(10, 161, 246, 0.32);
+}
+
+/* exhibition page */
+
+/* explore page */
+
+
+.picture_kids {
+    max-width: 350px;
+}
+
+.picture_teacher {
+    max-width: 350px;
+}
+
+.picture_researchers {
+    max-width: 350px;
+}
+
+.explore_1 {
+    background-color: rgba(195, 249, 230, 1);
+}
+
+.explore_2 {
+    background-color: rgba(242, 251, 132, 1);
+}
+
+.explore_3 {
+    background-color: rgba(177, 225, 252, 1);
+}
+
+/* visit us page */
+
+.main_index {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(148, 244, 210, 0.56);
+}
+
+.picture_museum {
+    max-width: 100%;
+}
+
+.visit_us_box div{
+    padding: 20px;
+}
+
+/* Contact page */
+
+.contact_main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(177, 225, 252, 1);
+}
+
+.hanging_dinosaur {
+    display: flex;
+    max-width: 100%;
+}
+
+.email{
+    color:  rgba(227, 9, 179, 1);
+}
+
+
+/* media queries */
+
