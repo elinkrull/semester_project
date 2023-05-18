@@ -212,51 +212,84 @@ footer div p {
 
 /* explore page */
 
-
 .picture_kids, .picture_teacher, .picture_researchers  {
-    max-width: 350px;
+    max-width: 320px;
 }
 
 .explore_1 {
     background-color: rgba(195, 249, 230, 1);
+    padding: 10px 20px;
 }
 
-.explore_2 {
+.kids_text1, .kids_text2 {
+    display: flex;
+    align-items: center;
     position: relative;
-    background-color: rgba(242, 251, 132, 1);
-    height: 700px;
+    color: white;
+    background-color: rgba(7, 181, 119, 1);
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.kids_text1 {
+    width: 260px;
+    height: 150px;
     z-index: 1;
 }
 
-.teacher_text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: 80px;
-    bottom: -200px;
-    background-color: rgba(251, 167, 4, 0.65);
-    height: 250px;
-    width: 350px;
-    padding: 0px 50px;
-    border-radius: 50%;
+.kids_text2 {
+    width: 160px;
+    height: 90px;
+    left: 90px;
+    bottom: 50px;
     z-index: 2;
+}
+
+.explore_2 {
+    background-color: rgba(242, 251, 132, 1);
+    padding: 10px 10px 40px 10px;
+}
+
+.teacher_text {
+    position: relative;
+    right: 20px;
+    top: 20px;
+    background-color: rgba(251, 167, 4, 0.65);
+    border-radius: 50%;
+    width: 210px;
+    padding: 20px 50px;
+    margin: 0px auto;
 }
 
 .explore_3 {
     background-color: rgba(177, 225, 252, 1);
+    padding: 10px;
 }
 
-
-.explore_header {
-    text-align: center;
-    padding-top: 20px;
-}
-
-.explore_figure {
+.explore_text1, .explore_text2 {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    background-color: rgba(9, 61, 139, 1);
+    padding: 10px 20px 10px 50px;
+    margin-top: 20px;
+    width: 230px;
+    height: 120px;
+    border-radius: 50%;
 }
+
+.explore_text1 {
+    left: 20px;
+    z-index: 1;
+}
+
+.explore_text2 {
+    bottom: 50px;
+    z-index: 2;
+}
+
 
 /* visit us page */
 
@@ -266,7 +299,10 @@ footer div p {
 }
 
 .picture_museum {
-    max-width: 100%;
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+    object-position: 0% 35%;
 }
 
 .visit_us_box {
