@@ -60,28 +60,25 @@ nav a {
 
 .free_entrance {
     display: flex;
-    flex-direction: inline-flex;
     background-color: rgba(9, 61, 139, 1);
     color: white;
+    justify-content: center;
+    padding: 5px 20px;
 }
 
 .free_entrance_text {  
     font-size: 12px;
-    margin: 8px 40px;
     text-align: center;
 }
     
-
 /* -- footer -- */
 
 footer {
     display: flex;
     color: white;
     background-color: rgba(9, 61, 139, 1);
-}
-
-.footer_left, .footer_right {
-    margin: 20px auto;
+    gap: 20px;
+    padding: 20px;
 }
 
 footer div p {
@@ -137,7 +134,6 @@ footer div p {
     padding-bottom: 20px;
 }
 
-
 .explore_more1 {
     position: relative;
     bottom: 100px;
@@ -174,41 +170,85 @@ footer div p {
     padding-bottom: 20px;
 }
 
-
 /* exhibition space page */
-
 
 .galaxy_picture {
     position: relative;
     display: flex;
     height: 200px;
+    height: 70px;
+    width: 100%;
     z-index: 1;
 }
 
 .exhibition_space_header {
-    font-size: 24px;
+    font-size: 18px;
     position: absolute;
-    left: 50px;
+    left: 20px;
+    top: 160px;
     color: white;
     z-index: 2;
 }
 
 .exhibition_section_one {
     background-color: rgba(251, 167, 4, 1);
+    padding: 20px;
 }
 
-.planets_picture, .mammut_picture, .hanging_sceleton_picture, .heart_picture, .head_picture {
-    max-width: 350px;
+.planets_picture {
+    width: 320px;
+    height: 100px;
+    object-fit: cover;
 }
 
-.exhibition_section_two {
+.heart_picture {
+    width: 180px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.mammut_picture, .hanging_sceleton_picture {
+    max-width: 100%;
+}
+
+.exhibition_section_grid {
    background-color:rgba(242, 251, 132, 1);
+   padding: 20px;
+   display: grid;
+   gap: 10px;
+   grid-template-columns: 55% 35%;
 }
 
+.exhibition_section_grid_two {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.exhibition_section_grid_four, .exhibition_section_grid_five {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+   
 .exhibition_section_three {
     background-color: rgba(195, 249, 230, 1);
+    padding: 20px;
 }
 
+.head_picture {
+    max-width: 250px;
+    position: relative;
+    left: 80px;
+    z-index: 1;
+}
+
+.heart_picture {
+    position: absolute;
+    z-index: 2;
+    left: 20px;
+    top: 1000px;
+}
 
 /* explore page */
 
@@ -252,19 +292,20 @@ footer div p {
 }
 
 .teacher_text {
+    display: flex;
+    align-items: center;
     position: relative;
-    right: 20px;
     top: 20px;
     background-color: rgba(251, 167, 4, 0.65);
     border-radius: 50%;
     width: 210px;
-    padding: 20px 50px;
+    padding: 50px 60px;
     margin: 0px auto;
 }
 
 .explore_3 {
     background-color: rgba(177, 225, 252, 1);
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 .explore_text1, .explore_text2 {
@@ -273,9 +314,9 @@ footer div p {
     position: relative;
     color: white;
     background-color: rgba(9, 61, 139, 1);
-    padding: 10px 20px 10px 50px;
+    padding: 10px 20px 5px 50px;
     margin-top: 20px;
-    width: 230px;
+    width: 220px;
     height: 120px;
     border-radius: 50%;
 }
@@ -290,13 +331,7 @@ footer div p {
     z-index: 2;
 }
 
-
 /* visit us page */
-
-.free_entrance {
-    display: flex;
-    justify-content: center;
-}
 
 .picture_museum {
     height: 150px;
