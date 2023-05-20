@@ -11,14 +11,17 @@ body {
 
 header {
     display: flex;
+    gap: 30px;
 }
 
-.logo_box {
+.logo-container {
     max-width: 70px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .logo {
-    max-width: 100%;
+    width: 100%;
 }
 
 .logo_text1 {
@@ -32,8 +35,9 @@ header {
 
 .fa-bars {
     font-size: 24px;
-    margin-left: 40px;
-    margin-top: 50px;
+    position: relative;
+    left: 40px;
+    top: 50px;
 }
 
 #hamburger-checkbox:checked ~ nav {
@@ -45,16 +49,16 @@ nav, #hamburger-checkbox {
 }
 
 nav a {
-    display: block;
     color: black;
+    background-color: white;
+    padding: 8px;
     text-decoration: none;
- }
-
- .social_media_icons {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
- }
+    display: block;
+    position: relative;
+    top: 100px;
+    right: 80px;
+    z-index: 5;
+}
 
 /* -- header end -- */
 
@@ -75,15 +79,22 @@ nav a {
 
 footer {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     color: white;
     background-color: rgba(9, 61, 139, 1);
-    gap: 20px;
     padding: 20px;
 }
 
 footer div p {
     font-size: 12px;
 }
+
+ .social_media_icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+ }
 
 /* LOCAL STYLES */
 
@@ -170,7 +181,7 @@ footer div p {
     padding-bottom: 20px;
 }
 
-/* exhibition space page */
+/* exhibition spaces page */
 
 .galaxy_picture {
     position: relative;
@@ -232,6 +243,7 @@ footer div p {
 }
    
 .exhibition_section_three {
+    position: relative;
     background-color: rgba(195, 249, 230, 1);
     padding: 20px;
 }
@@ -246,8 +258,8 @@ footer div p {
 .heart_picture {
     position: absolute;
     z-index: 2;
-    left: 20px;
-    top: 1000px;
+    left: 30px;
+    top: 50px;
 }
 
 /* explore page */
@@ -300,7 +312,6 @@ footer div p {
     border-radius: 50%;
     width: 210px;
     padding: 50px 60px;
-    margin: 0px auto;
 }
 
 .explore_3 {
@@ -333,17 +344,17 @@ footer div p {
 
 /* visit us page */
 
+.picture_museum_container {
+    display: flex;
+}
+
 .picture_museum {
-    height: 150px;
+    height: 200px;
     width: 300px;
-    object-fit: cover;
-    object-position: 0% 35%;
 }
 
 .visit_us_box {
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
+    padding: 20px;
     background-color: rgba(148, 244, 210, 0.56);
 }
 
@@ -378,17 +389,25 @@ footer div p {
 
 /* visit us page */
 
-@media(min-width:921px) {
+@media(min-width:660px) {
 
+    .picture_museum_container {
+        float: right;
+        padding: 20px;
+    }
 
-
+    .picture_museum {
+        height: 350px;
+        width: 500px;
+        object-fit: cover;
+        object-position: 0 40%;
+    }
 
 }
 
 /* contact page */
 
 @media(min-width:921px) {
-
 
     .contact_header {
         padding-bottom: 40px;
