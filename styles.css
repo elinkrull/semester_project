@@ -268,6 +268,16 @@ footer div p {
     max-width: 320px;
 }
 
+.explore_1_box, .explore_2_box, .explore_3_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.explore_2_box {
+    margin-bottom: 30px;
+}
+
 .explore_1 {
     background-color: rgba(195, 249, 230, 1);
     padding: 10px 20px;
@@ -300,7 +310,7 @@ footer div p {
 
 .explore_2 {
     background-color: rgba(242, 251, 132, 1);
-    padding: 10px 10px 40px 10px;
+    padding: 10px 20px;
 }
 
 .teacher_text {
@@ -386,6 +396,33 @@ footer div p {
 
 
 /* media queries */
+
+/* explore page */
+
+
+    @media(min-width:900px) {
+
+    .picture_kids, .picture_teacher, .picture_researchers {
+        max-width: 400px;
+    }
+
+    .explore_1_box, .explore_2_box, .explore_3_box {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .kids_text1, .kids_text2 {
+        margin-top: 0px;
+    }
+
+    .explore_header {
+        display: flex;
+        justify-content: space-around;
+        padding: 30px 0px;
+    }
+
+}
+
 
 /* visit us page */
 
