@@ -100,7 +100,7 @@ footer div p {
 
 /* index page */
 
-.spaceship_simulator, .mammut_museum, .simulation_glasses {
+.spaceship_simulator, .mammut_museum, .simulation_glasses, .mammut_sceleton, .galaxy_picture_index {
     max-width: 300px;
 }
 
@@ -186,13 +186,12 @@ footer div p {
 .galaxy_picture {
     position: relative;
     display: flex;
-    height: 200px;
     height: 70px;
     width: 100%;
     z-index: 1;
 }
 
-.exhibition_space_header {
+.exhibition_main div h2 {
     font-size: 18px;
     position: absolute;
     left: 20px;
@@ -260,6 +259,99 @@ footer div p {
     z-index: 2;
     left: 30px;
     top: 50px;
+}
+
+/* exhibition spaces page */
+
+@media(min-width:548px) {
+
+    .exhibition_main div h2 {
+        top: 140px;
+    }
+}
+
+@media(min-width:700px) {
+
+    .exhibition_section_one, .exhibition_section_three {
+        display: flex;
+        gap: 30px;
+        padding: 80px 40px;
+    }
+
+    .exhibition_section_one {
+        flex-direction: row-reverse;
+    }
+
+    .planets_picture {
+        width: 400px;
+        height: 200px;
+    }
+
+    .exhibition_main div h3, .exhibition_main div h2 {
+        font-size: 32px;
+    }
+
+    .exhibition_main div h2 {
+        top: 130px;
+    }
+
+    .galaxy_picture {
+        height: 100px;
+    }
+
+    .exhibition_section_three {
+        display: flex;
+
+    }
+
+    .head_picture {
+        left: 10px;
+        top: 10px;
+    }
+
+    .heart_picture {
+        top: 120px;
+    }
+
+}
+
+@media(min-width:1037px) {
+
+    .exhibition_section_grid {
+        grid-template-columns: 18% 18% 18% 18% 18%;
+        padding: 80px 40px;
+        gap: 20px;
+    }
+
+
+    .exhibition_section_grid_two {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 4; 
+    }
+
+    .exhibition_section_grid_one {
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 4; 
+    }
+
+    .exhibition_section_grid_three, .exhibition_section_grid_four, .exhibition_section_grid_five {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+    }
+
+    .exhibition_section_grid_four {
+        grid-row-start: 2;
+    }
+
+    .exhibition_section_grid_five {
+        grid-row-start: 3;
+    }
+
 }
 
 /* explore page */
@@ -397,8 +489,19 @@ footer div p {
 
 /* media queries */
 
-/* explore page */
+/* index page */
 
+@media(max-width:800px) {
+
+    .mammut_sceleton, .galaxy_picture_index {
+        display: none;
+    }
+
+}
+
+
+
+/* explore page */
 
     @media(min-width:900px) {
 
@@ -422,7 +525,6 @@ footer div p {
     }
 
 }
-
 
 /* visit us page */
 
