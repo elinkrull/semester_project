@@ -27,11 +27,12 @@ body header {
 
 .logo_text1 {
     font-size: 24px;
-    text-decoration: solid;
+    color: black;
 }
 
 .logo_text2 {
     font-size: 16px;
+    color: black;
     position: relative;
     bottom: 15px;
     left: 20px;
@@ -94,11 +95,18 @@ footer div p {
     font-size: 12px;
 }
 
- .social_media_icons {
+.footer_header {
+    font-size: 14px;
+}
+
+.follow-us {
+    font-size: 24px;
     display: flex;
     flex-direction: row;
     gap: 20px;
- }
+    align-items: center;
+
+}
 
 /* LOCAL STYLES */
 
@@ -381,7 +389,7 @@ footer div p {
     padding: 10px 40px;
 }
 
-.email{
+.email, .phone-number {
     font-size: 20px;
     color:  rgba(227, 9, 179, 1);
 }
@@ -408,29 +416,27 @@ footer div p {
     nav {
         display: flex;
         gap: 20px;
+        font-size: 18px;
+
     }
 
     nav a {
-    color: black;
-    background-color: transparent;
-    padding: 12px;
-    text-decoration: none;
-    position: relative;
-    top: 50px;
-    right: 0px;
+        color: black;
+        background-color: transparent;
+        padding: 12px;
+        text-decoration: none;
+        position: relative;
+        top: 50px;
+        right: 0px;
     }
 
     footer div p {
         font-size: 14px;
     }
 
+    .footer_header {
+    font-size: 20px;
 }
-
-@media(min-width:800px) {
-
-    nav {
-        font-size: 18px;
-    }
 
 }
 
