@@ -139,23 +139,34 @@ footer div p {
     padding: 10px 52px;
 }
 
+
+
+.exhibition_spaces {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 20% 20% 10% 10% 10% 10%;
+}
+
 .exhibition_spaces1 {
-    position: relative;
-    top: 30px;
     z-index: 2;
 }
 
 .exhibition_spaces2 {
     padding: 150px 20px 40px 30px;
     background-color: rgba(195, 249, 230, 1);
+    grid-row-start: 3;
+    grid-row-end: 5;
     z-index: 1;
-    position: relative;
-    bottom: 130px;
 }
 
-.exhibition_spaces2_text {
-    padding-bottom: 20px;
+.exhibition_spaces3 {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    z-index: 3;
 }
+
+
+
 
 .explore_more1 {
     position: relative;
