@@ -9,19 +9,20 @@ body {
     max-width: 100%;
 }
 
-header {
+body header {
     display: flex;
+    justify-content: space-between;
     gap: 30px;
 }
 
 .logo-container {
-    max-width: 70px;
-    padding-left: 10px;
-    padding-top: 10px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .logo {
-    width: 100%;
+    max-width: 80px;
 }
 
 .logo_text1 {
@@ -31,12 +32,15 @@ header {
 
 .logo_text2 {
     font-size: 16px;
+    position: relative;
+    bottom: 15px;
+    left: 20px;
 }
 
 .fa-bars {
-    font-size: 24px;
+    font-size: 26px;
     position: relative;
-    left: 40px;
+    right: 50px;
     top: 50px;
 }
 
@@ -100,7 +104,7 @@ footer div p {
 
 /* index page */
 
-.spaceship_simulator, .mammut_museum, .simulation_glasses, .mammut_sceleton, .galaxy_picture_index {
+.spaceship_simulator, .mammut_museum, .simulation_glasses, .mammut_sceleton, .planets_picture_index {
     max-width: 300px;
 }
 
@@ -211,12 +215,6 @@ footer div p {
     object-fit: cover;
 }
 
-.heart_picture {
-    width: 180px;
-    height: 100px;
-    object-fit: cover;
-}
-
 .mammut_picture, .hanging_sceleton_picture {
     max-width: 100%;
 }
@@ -256,102 +254,12 @@ footer div p {
 
 .heart_picture {
     position: absolute;
-    z-index: 2;
     left: 30px;
     top: 50px;
-}
-
-/* exhibition spaces page */
-
-@media(min-width:548px) {
-
-    .exhibition_main div h2 {
-        top: 140px;
-    }
-}
-
-@media(min-width:700px) {
-
-    .exhibition_section_one, .exhibition_section_three {
-        display: flex;
-        gap: 30px;
-        padding: 80px 40px;
-    }
-
-    .exhibition_section_one {
-        flex-direction: row-reverse;
-    }
-
-    .planets_picture {
-        width: 400px;
-        height: 200px;
-    }
-
-    .exhibition_main div h3, .exhibition_main div h2 {
-        font-size: 32px;
-    }
-
-    .exhibition_main div h2 {
-        top: 130px;
-    }
-
-    .galaxy_picture {
-        height: 100px;
-    }
-
-    .exhibition_section_three {
-        display: flex;
-
-    }
-
-    .head_picture {
-        left: 10px;
-        top: 10px;
-    }
-
-    .heart_picture {
-        top: 120px;
-    }
-
-}
-
-@media(min-width:1037px) {
-
-    .exhibition_section_grid {
-        grid-template-columns: 18% 18% 18% 18% 18%;
-        padding: 80px 40px;
-        gap: 20px;
-    }
-
-
-    .exhibition_section_grid_two {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 4; 
-    }
-
-    .exhibition_section_grid_one {
-        grid-column-start: 4;
-        grid-column-end: 6;
-        grid-row-start: 1;
-        grid-row-end: 4; 
-    }
-
-    .exhibition_section_grid_three, .exhibition_section_grid_four, .exhibition_section_grid_five {
-        grid-column-start: 2;
-        grid-column-end: 4;
-        grid-row-start: 1;
-    }
-
-    .exhibition_section_grid_four {
-        grid-row-start: 2;
-    }
-
-    .exhibition_section_grid_five {
-        grid-row-start: 3;
-    }
-
+    width: 180px;
+    height: 100px;
+    object-fit: cover;
+    z-index: 2;
 }
 
 /* explore page */
@@ -489,17 +397,149 @@ footer div p {
 
 /* media queries */
 
+/* global code */
+
+@media(min-width:800px) {
+
+    .fa-bars {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        gap: 20px;
+    }
+
+    nav a {
+    color: black;
+    background-color: transparent;
+    padding: 12px;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    right: 0px;
+    }
+
+    footer div p {
+        font-size: 14px;
+    }
+
+}
+
+@media(min-width:800px) {
+
+    nav {
+        font-size: 18px;
+    }
+
+}
+
 /* index page */
 
 @media(max-width:800px) {
 
-    .mammut_sceleton, .galaxy_picture_index {
+    .mammut_sceleton, .planets_picture_index {
         display: none;
     }
 
 }
 
+/* exhibition spaces page */
 
+@media(min-width:548px) {
+
+    .exhibition_main div h2 {
+        top: 140px;
+    }
+}
+
+@media(min-width:700px) {
+
+    .exhibition_section_one, .exhibition_section_three {
+        display: flex;
+        gap: 50px;
+        padding: 80px 40px;
+    }
+
+    .exhibition_section_one {
+        flex-direction: row-reverse;
+    }
+
+    .planets_picture {
+        width: 400px;
+        height: 200px;
+    }
+
+    .exhibition_main div h3, .exhibition_main div h2 {
+        font-size: 32px;
+    }
+
+    .exhibition_main div h2 {
+        top: 130px;
+    }
+
+    .galaxy_picture {
+        height: 100px;
+    }
+
+    .exhibition_section_three {
+        display: flex;
+    }
+
+    .head_picture {
+        left: 10px;
+        top: 10px;
+        max-width: 400px;
+    }
+
+    .heart_picture {
+        top: 130px;
+        height: 180px;
+        width: 250px;
+        left: 40px;
+    }
+
+}
+
+@media(min-width:1037px) {
+
+    .exhibition_section_grid {
+        grid-template-columns: 18% 18% 18% 18% 18%;
+        padding: 80px 40px;
+        gap: 0px 30px;
+    }
+
+
+    .exhibition_section_grid_two {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 4; 
+    }
+
+    .exhibition_section_grid_one {
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 4; 
+    }
+
+    .exhibition_section_grid_three, .exhibition_section_grid_four, .exhibition_section_grid_five {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+    }
+
+    .exhibition_section_grid_four {
+        grid-row-start: 2;
+    }
+
+    .exhibition_section_grid_five {
+        grid-row-start: 3;
+        justify-self: end;
+    }
+
+}
 
 /* explore page */
 
