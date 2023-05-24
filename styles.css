@@ -38,11 +38,8 @@ body header {
     left: 20px;
 }
 
-.fa-bars {
-    font-size: 26px;
-    position: relative;
-    right: 50px;
-    top: 50px;
+.visually-hidden {
+    display: none
 }
 
 #hamburger-checkbox:checked ~ nav {
@@ -62,7 +59,14 @@ nav a {
     position: relative;
     top: 100px;
     right: 80px;
-    z-index: 5;
+    z-index: 4;
+}               
+
+.fa-bars {
+    font-size: 26px;
+    position: relative;
+    right: 50px;
+    top: 50px;
 }
 
 /* -- header end -- */
@@ -105,7 +109,6 @@ footer div p {
     flex-direction: row;
     gap: 20px;
     align-items: center;
-
 }
 
 /* LOCAL STYLES */
@@ -139,70 +142,101 @@ footer div p {
     padding: 10px 52px;
 }
 
-
-
-.exhibition_spaces {
+.index-grid {
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 20% 20% 20% 10% 10% 10% 10%;
+    grid-template-columns: 10% 20% 20% 20% 20% 10%;
+    grid-template-rows: 190px 140px 120px 120px 80px 40px 80px 100px 100px 30px 200px 100px 150px 130px 70px;
 }
 
-.exhibition_spaces1 {
+.index-item-one {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
     z-index: 2;
 }
 
-.exhibition_spaces2 {
-    padding: 150px 20px 40px 30px;
-    background-color: rgba(195, 249, 230, 1);
+.index-item-two {
+    grid-column-start: 1;
+    grid-column-end: 7;
     grid-row-start: 3;
     grid-row-end: 5;
     z-index: 1;
 }
 
-.exhibition_spaces3 {
+.index-item-two-text {
+    padding: 160px 20px 50px 20px;
+    background-color: rgba(195, 249, 230, 1);
+}
+
+.index-item-three {
+    margin: 12px 20px; 
+    grid-column-start: 1;
+    grid-column-end: 6;
     grid-row-start: 5;
     grid-row-end: 6;
-    z-index: 3;
+    z-index: 1;
 }
 
-
-
-
-.explore_more1 {
-    position: relative;
-    bottom: 100px;
+.index-item-five {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
     z-index: 2;
 }
 
-.explore_more2 {
-    padding: 100px 20px 40px 30px;
+.index-item-six-text {
+    padding: 120px 20px 50px 30px;
     background-color: rgba(240, 251, 114, 0.87);
+}
+
+.index-item-six {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 8;
+    grid-row-end: 9;
     z-index: 1;
-    position: relative;
-    bottom: 200px;
 }
 
-.explore_more2_text {
-    padding-bottom: 20px;
+.index-item-seven {
+    margin-left: 20px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 10;
+    grid-row-end: 10;
+    z-index: 1;
 }
 
-.read_more1 {
-    position: relative;
-    bottom: 170px;
+.index-item-nine {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 11;
+    grid-row-end: 13;
     z-index: 2;
 }
 
-.read_more2 {
-    padding: 100px 20px 40px 30px;
+.index-item-ten-text {
+    padding: 180px 20px 50px 20px;
     background-color: rgba(10, 161, 246, 0.32);
-    z-index: 1;
-    position: relative;
-    bottom: 280px;
 }
 
-.read_more2_text {
-    padding-bottom: 20px;
+.index-item-ten {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 13;
+    grid-row-end: 14;
+    z-index: 1;
 }
+
+.index-item-eleven {
+    grid-row-start: 14;
+    grid-row-end: 15;
+    z-index: 2;
+}
+
+
+
 
 /* exhibition spaces page */
 
@@ -428,7 +462,6 @@ footer div p {
         display: flex;
         gap: 20px;
         font-size: 18px;
-
     }
 
     nav a {
