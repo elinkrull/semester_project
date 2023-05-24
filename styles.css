@@ -38,15 +38,15 @@ body header {
     left: 20px;
 }
 
-.visually-hidden {
-    display: none
-}
-
-#hamburger-checkbox:checked ~ nav {
+#menu-checkbox:checked ~ nav {
     display: block;
 }
 
-nav, #hamburger-checkbox {
+nav {
+    display: none;
+}
+
+#menu-checkbox {
     display: none;
 }
 
@@ -59,8 +59,12 @@ nav a {
     position: relative;
     top: 100px;
     right: 80px;
-    z-index: 4;
-}               
+    z-index: 5;
+}
+
+.visually-hidden {
+    display: none;
+}          
 
 .fa-bars {
     font-size: 26px;
