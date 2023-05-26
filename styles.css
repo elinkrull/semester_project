@@ -149,15 +149,14 @@ footer div p {
 
 .index-grid {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    margin: 20px;
+    grid-template-columns: 100%;
+    justify-items: center;
 }
-
 
 .index-item-two-text {
+    padding: 150px 20px 40px 30px;
     background-color: rgba(195, 249, 230, 1);
 }
-
 
 .index-item-six-text {
     padding: 120px 20px 50px 30px;
@@ -168,7 +167,6 @@ footer div p {
     padding: 210px 20px 50px 20px;
     background-color: rgba(10, 161, 246, 0.32);
 }
-
 
 /* exhibition spaces page */
 
