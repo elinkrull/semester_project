@@ -425,6 +425,19 @@ footer div p {
 
 }
 
+@media(min-width:740px) {
+
+    .flex-box  {
+        display: flex;
+        flex-direction: row;
+    } 
+
+    .text-button {
+        flex-direction: column;
+    }
+
+}
+
 /* exhibition spaces page */
 
 @media(min-width:548px) {
