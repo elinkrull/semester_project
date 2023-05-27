@@ -58,7 +58,7 @@ nav a {
     text-decoration: none;
     display: block;
     position: relative;
-    top: 70px;
+    top: 90px;
     z-index: 5;
 }
 
@@ -68,7 +68,7 @@ nav a {
 
 .fa-bars {
     font-size: 26px;
-    position: relative;
+    position: absolute;
     right: 50px;
     top: 50px;
 }       
@@ -136,9 +136,7 @@ footer div p {
     color: white;
     text-decoration: none;
     padding: 10px 20px;
-    margin-left: 20px;
     background-color: rgba(9, 61, 139, 1);
-    z-index: 10;
 }
 
 .two {
@@ -149,32 +147,31 @@ footer div p {
     padding: 10px 52px;
 }
 
-.index-grid {
-    display: grid;
-    grid-template-columns: 100%;
-    justify-items: center;
+.main-flex {
+    flex-direction: column;
 }
 
-.index-item-one {
-    margin-top: 30px;
-    z-index: 2;
+.flex-box  {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
 }
 
-.index-item {
-    z-index: 1;
-    padding: 120px 30px 30px 30px;
-}
-
-.text-two {
+.box-one {
     background-color: rgba(195, 249, 230, 1);
 }
 
-.text-six {
-    background-color: rgba(240, 251, 114, 0.87);
+.box-two {
+    background-color: rgba(242, 251, 132, 1);
 }
 
-.text-ten {
-    background-color: rgba(10, 161, 246, 0.32);
+.box-three {
+    background-color: rgba(177, 225, 252, 1);
+}
+
+.text-button {
+    gap: 20px;
 }
 
 /* exhibition spaces page */
@@ -389,7 +386,7 @@ footer div p {
 
 /* global code */
 
-@media(min-width:800px) {
+@media(min-width:870px) {
 
     .fa-bars {
         display: none;
@@ -427,7 +424,6 @@ footer div p {
     }
 
 }
-
 
 /* exhibition spaces page */
 
