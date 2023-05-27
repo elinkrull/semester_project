@@ -119,7 +119,7 @@ footer div p {
 
 /* index page */
 
-.spaceship_simulator, .mammut_museum, .simulation_glasses, .mammut_sceleton, .planets_picture_index {
+.spaceship_simulator, .mammut_museum, .simulation_glasses {
     max-width: 300px;
 }
 
@@ -149,6 +149,12 @@ footer div p {
 
 .main-flex {
     flex-direction: column;
+}
+
+.flex-text {
+    font-size: 18px;
+    padding: 26px;
+    text-align: center;
 }
 
 .flex-box  {
@@ -434,6 +440,21 @@ footer div p {
 
     .text-button {
         flex-direction: column;
+        align-items: start;
+    }
+
+    .flex-text {
+        font-size: 18px;
+        padding: 26px 0px;
+        text-align:left;
+    }
+
+    .planets_picture_index, .mammut_sceleton {
+        max-width: 400px;
+    }
+
+    .spaceship_simulator {
+        max-width: 600px;
     }
 
 }
@@ -574,6 +595,10 @@ footer div p {
         width: 500px;
         object-fit: cover;
         object-position: 0 40%;
+    }
+
+    .visit_us_box {
+        padding: 40px 100px;
     }
 
 }
