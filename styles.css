@@ -206,7 +206,7 @@ footer div p {
 
 .planets_picture {
     width: 320px;
-    height: 100px;
+    height: 200px;
     object-fit: cover;
 }
 
@@ -353,10 +353,6 @@ footer div p {
 
 /* visit us page */
 
-.picture_museum_container {
-    display: flex;
-}
-
 .picture_museum {
     height: 200px;
     width: 300px;
@@ -495,11 +491,7 @@ footer div p {
 
     .exhibition_section_one {
         flex-direction: row-reverse;
-    }
-
-    .planets_picture {
-        width: 400px;
-        height: 200px;
+        padding: 70px;
     }
 
     .exhibition_main div h3, .exhibition_main div h2 {
@@ -599,7 +591,7 @@ footer div p {
 
     .picture_museum_container {
         float: right;
-        padding: 20px;
+        padding: 20px 40px;
     }
 
     .picture_museum {
