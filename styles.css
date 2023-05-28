@@ -29,7 +29,7 @@ body header {
 
 .logo {
     color: black;
-    font-weight: solid;
+    font-weight: bold;
 }
 
 .text1 {
@@ -48,11 +48,7 @@ body header {
     height: 30px;
 }
 
-nav {
-    display: none;
-}
-
-#menu-checkbox {
+.visually-hidden, nav, #menu-checkbox {
     display: none;
 }
 
@@ -65,11 +61,7 @@ nav a {
     position: relative;
     top: 120px;
     z-index: 5;
-}
-
-.visually-hidden {
-    display: none;
-}   
+} 
 
 .fa-bars {
     font-size: 26px;
@@ -79,7 +71,7 @@ nav a {
 }     
 
 .on-page {
-    font-weight: solid;
+    font-weight: bold;
 }
 
 /* -- header end -- */
@@ -95,6 +87,7 @@ nav a {
 .free_entrance_text {  
     font-size: 12px;
     text-align: center;
+    font-weight: bold;
 }
     
 /* -- footer -- */
