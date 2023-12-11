@@ -7,6 +7,7 @@ The purpose of this project was to create and build a website for for a newly op
 ## Description
 
 
+
 ## Built With
 
 - FIGMA
@@ -23,7 +24,7 @@ This is where you list how to get the project started. It typically just include
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+git clone https://github.com/elinkrull/semester_project
 ```
 
 2. Install the dependencies:
