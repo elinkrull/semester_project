@@ -1,26 +1,19 @@
-# Your project title
+# Community Science Museum
 
 ![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
-A simple overview of the use/purpose of the project.
+The purpose of this project was to create and build a website for for a newly opened interactive science museum called the Community Science Museum. The core target audience is primary and middle school children (ages 7-15) and families with young children.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
-
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
-
+- FIGMA
+- HTML
+- CSS
+- JAVASCRIPT
+  
 ## Getting Started
 
 ### Installing
@@ -55,9 +48,7 @@ Here you can detail any information you want to provide regarding contributing t
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
-
-[My Twitter page](www.twitter.com)
+https://www.linkedin.com/in/elin-thoen-jakobsen-2224a2264/
 
 [My LinkedIn page](www.linkedin.com)
 
@@ -67,4 +58,6 @@ You can link to your license file here if you're using one, or mention what lice
 
 ## Acknowledgments
 
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+- Talitha Kruger for all the help when I was struggling with code, and for giving me motivation to work hard and not give up on this project.
+
+- Marte Bøe Olsen, Geir Sønnesyn, Weronika Martinsen, Bjørnar Jakobsen and Tor Hakon Bergseng for giving me feedback on my site during the developing proccess. 
