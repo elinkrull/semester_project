@@ -1,12 +1,13 @@
 # Community Science Museum
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+<img width="934" alt="Skjermbilde 2023-12-11 kl  23 33 32" src="https://github.com/elinkrull/semester_project/assets/126721502/7b54f11a-af76-4d00-99d0-ce08f6e81f47">
 
-The purpose of this project was to create and build a website for for a newly opened interactive science museum called the Community Science Museum. The core target audience is primary and middle school children (ages 7-15) and families with young children.
+
+The purpose of this project was to create and build a website for for a newly opened interactive science museum called the Community Science Museum. 
 
 ## Description
 
-
+The core target audience is primary and middle school children (ages 7-15) and families with young children.
 
 ## Built With
 
