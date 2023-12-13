@@ -1,8 +1,9 @@
 # Community Science Museum
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+<img width="934" alt="Skjermbilde 2023-12-11 kl  23 33 32" src="https://github.com/elinkrull/semester_project/assets/126721502/7b54f11a-af76-4d00-99d0-ce08f6e81f47">
 
-The purpose of this project was to create and build a website for for a newly opened interactive science museum called the Community Science Museum.
+
+The purpose of this project was to create and build a website for for a newly opened interactive science museum called the Community Science Museum. 
 
 ## Description
 
@@ -10,7 +11,6 @@ The core target audience is primary and middle school children (ages 7-15) and f
 
 ## Built With
 
-You can list a the tech stack that you've used over here
 
 - Figma
 - HTML
@@ -40,4 +40,6 @@ Open a pull request so code can be reviewed.
 
 ## Acknowledgments
 
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+- Talitha Kruger for all the help when I was struggling with code, and for giving me motivation to work hard and not give up on this project.
+
+- Marte Bøe Olsen, Geir Sønnesyn, Weronika Martinsen, Bjørnar Jakobsen and Tor Hakon Bergseng for giving me feedback on my site during the developing proccess. 
