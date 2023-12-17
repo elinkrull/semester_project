@@ -31,7 +31,7 @@ Use the live server to open the website in the browser by clicking on "open in l
 
 ## Contributing
 
-Open a pull request so code can be reviewed.
+Open a pull request so that the code can be reviewed.
 
 ## Contact
 
@@ -39,6 +39,6 @@ Open a pull request so code can be reviewed.
 
 ## Acknowledgments
 
-- Talitha Kruger for all the help when I was struggling with code, and for giving me motivation to work hard and not give up on this project.
+I would like to thank my class teacher Talitha Kruger for all the help when I was struggling with my code, and for giving me motivation and to make me belive in myself.
 
-- Marte Bøe Olsen, Geir Sønnesyn, Weronika Martinsen, Bjørnar Jakobsen and Tor Hakon Bergseng for giving me feedback on my site during the developing proccess. 
+I would also like to thank my all my classmates at Noroff for giving me feedback on the project, from the begin with the design process and until the final result at the very end.
